@@ -14,7 +14,7 @@ Console.WriteLine("Enter number:");
 int number = Convert.ToInt32(Console.ReadLine());
 int digit3 = Getthirddigit(number);
 if (number > 99)
-    Console.WriteLine($"третья цифра числа: {digit3}");
+    Console.WriteLine($"Третья цифра числа: {digit3}");
 else
     Console.WriteLine("Нет третьей цифры");
 
