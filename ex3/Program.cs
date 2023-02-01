@@ -1,7 +1,7 @@
 ﻿/* Напишите программу, которая принимает на вход цифру, 
 обозначающую день недели, и проверяет, 
 является ли этот день выходным */
-string day (int daynumber)
+string Day (int daynumber)
 {
     string result;
     if ((daynumber == 6) || (daynumber == 7))
@@ -14,6 +14,6 @@ string day (int daynumber)
 }
 Console.WriteLine ("Введите число дня недели:");
 int daynumber = Convert.ToInt32(Console.ReadLine());
-string weekday = day(daynumber);
+string weekday = Day(daynumber);
 Console.WriteLine(weekday);
 
